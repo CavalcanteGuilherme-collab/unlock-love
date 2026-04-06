@@ -30,7 +30,7 @@ if st.session_state.etapa == "login":
     senha = st.text_input("Senha", type="password")
 
     if st.button("Entrar"):
-        if login == "a" and senha == "a":
+        if login == "meuamor" and senha == "030126":
             st.session_state.etapa = "data"
             st.rerun()
         else:
